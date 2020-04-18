@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal"
+    android:background="@drawable/bgapp"
+    android:orientation="vertical">
+
+
+
+
+
+    <LinearLayout
+        android:background="@drawable/bgquestion"
+
+        android:layout_width="290dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/countLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q1"
+            android:layout_gravity="center_horizontal"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_marginTop="3dp"
+            />
+    <TextView
+        android:id="@+id/questionLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question"
+        android:layout_gravity="center_horizontal"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:textAlignment="center"
+        />
+    </LinearLayout>
+    <Button
+        android:id="@+id/answerBtn1"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="Answer1"
+        android:layout_marginTop="60dp"
+        android:onClick="checkAnswer"
+        android:background="@drawable/btn"/>
+
+    <Button
+        android:id="@+id/answerBtn2"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="Answer2"
+        android:layout_marginTop="15dp"
+        android:onClick="checkAnswer"
+        android:background="@drawable/btn"/>
+
+    <Button
+        android:id="@+id/answerBtn3"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="Answer3"
+        android:layout_marginTop="15dp"
+        android:onClick="checkAnswer"
+        android:background="@drawable/btn"/>
+
+    <Button
+        android:id="@+id/answerBtn4"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="Answer4"
+        android:layout_marginTop="15dp"
+        android:onClick="checkAnswer"
+        android:background="@drawable/btn"/>
+
+</LinearLayout>
